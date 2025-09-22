@@ -218,7 +218,7 @@ function displayContributors(contributors, container) {
         if (linkedin) links.push(`<a href="${linkedin}" target="_blank" rel="noopener">LinkedIn</a>`);
         
         // Create contribution tags
-        const tags = contributions.map(c => `<span class="contribution-tag">${c}</span>`).join('');
+        const tags = contributions.map(c => `<span class="contribution-tag">${c}</span>`).join(', ');
         
         return `
             <div class="contributor">
