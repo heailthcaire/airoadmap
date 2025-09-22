@@ -18,6 +18,14 @@
     "linkedin": "https://www.linkedin.com/in/Brandon-Clary-MHA"
   },
   {
+    "name": "Amer Dastgir",
+    "title": "CEO",
+    "company": "Property Developer",
+    "location": "North Carolina, USA",
+    "contributions": ["Author"],
+    "website": "https://www.heailthcaire.com/"
+  },
+  {
     "name": "Alain Trottier",
     "title": "CTO",
     "company": "HEaiLTHCaiRE",
@@ -25,14 +33,6 @@
     "contributions": ["Author","Primary Editor"],
     "website": "https://www.heailthcaire.com/",
     "linkedin": "https://www.linkedin.com/in/alaintrottier"
-  },
-  {
-    "name": "Amer Dastgir",
-    "title": "CEO",
-    "company": "Property Developer",
-    "location": "North Carolina, USA",
-    "contributions": ["Author"],
-    "website": "https://www.heailthcaire.com/"
   }
 
 ]
