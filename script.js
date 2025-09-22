@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Handle forms
     setupForms();
+
+    // Handle PDF downloads
+    setupPdfDownloads();
 });
 
 // Sample data storage
@@ -321,4 +324,31 @@ function showMessage(form, text, type) {
     
     // Scroll to message
     message.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+// Handle PDF downloads
+function setupPdfDownloads() {
+    const pdfButtons = document.querySelectorAll('.pdf-download-btn');
+    console.log('Found PDF buttons:', pdfButtons.length);
+    
+    pdfButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const filename = this.getAttribute('data-filename'); // Move this line UP
+            // console.log('PDF button clicked:', filename); // Now this line can use filename
+            if (filename) {
+                downloadPdf(filename);
+            }
+        });
+    });
+}
+
+function downloadPdf(filename) {
+    const link = document.createElement('a');
+    link.href = filename;
+    link.download = filename;
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
