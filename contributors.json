@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Adam M. Mayer",
+    "title": "Associate System Chief Financial Officer", 
+    "company": "Medical University of South Carolina",
+    "location": "South Carolina, USA",
+    "contributions": ["Author","Editor"],
+    "website": "https://web.musc.edu/",
+    "linkedin": "https://www.linkedin.com/in/adam-mayer-mha/"
+  },
+  {
+    "name": "Brandon Clary",
+    "title": "VP Operations",
+    "company": "MedStream Anesthesia", 
+    "location": "South Carolina, USA",
+    "contributions": ["Book Reviewer","Executive Interview"],
+    "website": "https://medstreamsolutions.com/",
+    "linkedin": "https://www.linkedin.com/in/Brandon-Clary-MHA"
+  },
+  {
+    "name": "Alain Trottier",
+    "title": "CTO",
+    "company": "HEaiLTHCaiRE",
+    "location": "Georgia, USA",
+    "contributions": ["Author","Primary Editor"],
+    "website": "https://www.heailthcaire.com/",
+    "linkedin": "https://www.linkedin.com/in/alaintrottier"
+  }
+
+]
